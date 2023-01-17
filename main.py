@@ -1,5 +1,11 @@
+"""
+REMOTE ACCESS v 0.1
+By: cveExplorer
+"""
+
 import socket as sock
 import sys
+import os
 
 s = sock.socket(sock.AF_INET, sock.SOCK_STREAM)
 s.bind(("127.0.0.1", 9090))
