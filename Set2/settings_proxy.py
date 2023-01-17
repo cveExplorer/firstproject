@@ -1,4 +1,0 @@
-"""
-Proxy Settings
-By: cveExplorer
-"""
