@@ -4,6 +4,7 @@ import sys
 s = sock.socket(sock.AF_INET, sock.SOCK_STREAM)
 s.bind(("127.0.0.1", 9090))
 s.listen(1)
+
 while True:
 	conn,addr = s.accept()
 	print("New connection from", addr)
